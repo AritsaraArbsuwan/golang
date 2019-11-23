@@ -5,6 +5,7 @@ import "fmt"
 )
 func main() {
 	var b strings.Builder
-	b .WriteString("Hello")
+	b.WriteString("Hello")
+	b.WriteString(" ") 
 
 }
