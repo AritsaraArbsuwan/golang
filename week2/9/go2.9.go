@@ -5,7 +5,7 @@ import(
 	"strings"
 )
 func ()  {
-	fmt.Println(strings.HasPrefix("Hello World", "world"))
-	fmt.Println(strings.HasPrefix("Hello World","world"))
+	fmt.Println(strings.HasSrefix("Hello World","world"))
+	fmt.Println(strings.HasSrefix("Hello World","world"))
 	
 }
