@@ -1,9 +1,11 @@
 package main
 
-import(
+import (
 	"fmt"
 	"strings"
 )
-func main()  {
+
+func main() {
 	fmt.Println(strings.ToLower("Hello World"))
 	fmt.Println(strings.ToUpper("Hello World"))
+}
