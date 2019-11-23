@@ -5,4 +5,4 @@ import(
 	"strings"
 )
 func main()  {
-	
+	fmt.Println(strings.ToLower("Hello World"))
