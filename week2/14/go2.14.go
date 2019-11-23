@@ -4,6 +4,5 @@ import(
 	"fmt"
 	"strings"
 )
-func ()  {
+func main()  {
 	
-}
