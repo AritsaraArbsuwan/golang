@@ -1,13 +1,15 @@
 package main
 
-import "fmt"
-	   "strings"
+import (
+	"fmt"
+	"strings"
 )
+
 func main() {
 	var b strings.Builder
 	b.WriteString("Hello")
-	b.WriteString(" ") 
+	b.WriteString(" ")
 	b.WriteString("World")
-	fmt.Println(b.strings())
+	fmt.Println(b.String())
 
 }
