@@ -8,5 +8,5 @@ import(
 func ()  {
 	fmt.Println(strings.Trim("-Hello-World","-"))
 	fmt.Println(strings.Trim("+Hell World-","-+"))
-	
+}
 	
