@@ -5,5 +5,6 @@ import(
 	"strings"
 )
 func ()  {
+	fmt.Println(strings.HasPrefix("Hello World", "world"))
 	
 }
