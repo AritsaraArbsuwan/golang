@@ -16,7 +16,7 @@ fmt.Println("a",time.Since(startA))
 startB :=time.Now()
 ver b strings.Builder
 for i :=0; i < 10000; i++{
-	b.Writesing("b")
+	b.WriteString("b")
 }
 fmt.Println("b", time.Since (startB))
 }
