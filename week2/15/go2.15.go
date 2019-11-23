@@ -6,4 +6,5 @@ import(
 )
 
 func ()  {
+	fmt.Println(strings.Trim("-Hello-World","-"))
 	
