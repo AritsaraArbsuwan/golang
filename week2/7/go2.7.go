@@ -1,3 +1,10 @@
 package main
 
-func main() {}
+import (
+	"fmt"
+	"strings"
+)
+
+func main() {
+	fmt.Println(strings.Count("Hello World", "o"))
+}
