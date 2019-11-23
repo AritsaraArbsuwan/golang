@@ -18,5 +18,5 @@ ver b strings.Builder
 for i :=0; i < 10000; i++{
 	b.WriteString("b")
 }
-fmt.Println("b", time.Since (startB))
+fmt.Println("b",time.Since(startB))
 }
