@@ -1,22 +1,23 @@
 package main
-import(
+
+import (
 	"fmt"
 	"strings"
 	"time"
 )
 
-func main()  {
-	startA :=time.Now()
+func main() {
+	startA := time.Now()
 	var a string
-	for i :=0; i < 10000; i++ {
+	for i := 0; i < 10000; i++ {
 		a += "a"
-}
-fmt.Println("a",time.Since(startA))
+	}
+	fmt.Println("a", time.Since(startA))
 
-startB :=time.Now()
-ver b strings.Builder
-for i :=0; i < 10000; i++{
-	b.WriteString("b")
-}
-fmt.Println("b",time.Since(startB))
+	startB := time.Now()
+	var b strings.Builder
+	for i := 0; i < 10000; i++ {
+		b.WriteString("b")
+	}
+	fmt.Println("b", time.Since(startB))
 }
