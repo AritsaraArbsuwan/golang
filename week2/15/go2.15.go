@@ -1,12 +1,11 @@
 package main
 
-import(
+import (
 	"fmt"
-	"string"
+	"strings"
 )
 
-func ()  {
-	fmt.Println(strings.Trim("-Hello-World","-"))
-	fmt.Println(strings.Trim("+Hell World-","-+"))
+func main() {
+	fmt.Println(strings.Trim("-Hello-World", "-"))
+	fmt.Println(strings.Trim("+Hell World-", "-+"))
 }
-	
