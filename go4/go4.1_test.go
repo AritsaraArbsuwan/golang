@@ -6,7 +6,7 @@ func TestBoat(t *testing.T) {
 	result := Boat(2, 7)
 
 	if result != 14 {
-		t.Error()
+		t.Error("Expected 14, got", result)
 	}
 
 }
