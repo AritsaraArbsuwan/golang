@@ -8,12 +8,8 @@ func main() {
 
 	x := alphabets[0:2]
 	fmt.Println(x)
-	fmt.Println(len(x))
-	fmt.Println(cap(x))
 
-	y := make([]int, 5, 10)
+	y := x[2:4]
 	fmt.Println(y)
-	fmt.Println(len(y))
-	fmt.Println(cap(y))
 
 }
