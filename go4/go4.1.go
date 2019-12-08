@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
-func TesAverage(t*testing.T)  {
+func TestAverage(t*testing.T)  {
+	v := Average
+
 	
 
