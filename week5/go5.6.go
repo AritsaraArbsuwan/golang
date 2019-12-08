@@ -17,7 +17,7 @@ func main() {
 			{80,90}
 			{800, 900},
 		},
-	}	
-
-	
+	}
+	fmt.Println(numbers)	
+	fmt.Println(numbers[1][2][0])
 }
