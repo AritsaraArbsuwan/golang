@@ -1,9 +1,6 @@
 package main
 
-import "fmt"
+func Boat(b, o int) int {
+	return b * o
 
-func TestAverage(t*testing.T)  {
-	v := Average
-
-	
-
+}
