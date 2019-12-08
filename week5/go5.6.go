@@ -8,6 +8,7 @@ func main() {
 	fmt.Println(alphabets[0][1])
 	number := [2][3][2]int{
 		{
+			{1,2},
 
 	
 }
