@@ -12,4 +12,10 @@ func main() {
 	y := x[2:4]
 	fmt.Println(y)
 
+	z := y[0:1]
+	fmt.Println(z)
+
+	z[0] = "X"
+	fmt.Println(alphabets)
+
 }
