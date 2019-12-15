@@ -9,8 +9,9 @@ func sum(numbres ...int) int {
 	}
 	return total	
 }
+
 func main()  {
-	x := sun(1, 3, ,5 ,7 ,9)
+	x := sum(1, 3, ,5 ,7 ,9)
 	fmt.Println(x)
 
 	y := sum()
