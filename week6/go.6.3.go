@@ -2,9 +2,9 @@ package main
 
 import "fmt"
 
-func sum(numbres ...int) int {
+func sum(numberes ...int) int {
 	total := 0
-	for _, n := range numbres {
+	for _, n := range numberes {
 		total = total + n
 	}
 	return total	
