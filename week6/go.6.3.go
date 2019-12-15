@@ -13,7 +13,7 @@ func main()  {
 	x := sun(1, 3, ,5 ,7 ,9)
 	fmt.Println(x)
 
-	y:= sun()
+	y := sum()
 	fmt.Println(y)
 	
 }
