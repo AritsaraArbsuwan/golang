@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func suntract(number *int) {
-	*number = number
+	*number = number - 1
 }
 
 func main() {
