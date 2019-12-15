@@ -5,4 +5,5 @@ func sum(numbres ...int) int {
 	for _, n := range numbres {
 		total = total + n
 	}
+	return total
 }
