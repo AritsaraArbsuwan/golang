@@ -10,4 +10,7 @@ func main(){
 	sum := func(x,y int) int{
        return x + y
 	}
+	subtraxt := func(x, y int)int {
+		return x - y
+	}
 
