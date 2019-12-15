@@ -13,4 +13,8 @@ func main(){
 	subtraxt := func(x, y int)int {
 		return x - y
 	}
-
+	x := compute(sum)
+	y := compute(subtract)
+	fmt.Println(x)
+	fmt.Println(y)
+}
