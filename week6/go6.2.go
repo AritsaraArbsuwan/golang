@@ -7,6 +7,6 @@ func swap(x, y int) (int, int) {
 }
 
 func main() {
-	x, y = swap(10, 5)
+	x, y := swap(10, 5)
 	fmt.Println(x, y)
 }
