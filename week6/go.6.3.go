@@ -16,5 +16,4 @@ func main()  {
 
 	y := sum()
 	fmt.Println(y)
-	
 }
