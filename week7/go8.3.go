@@ -1,5 +1,9 @@
 package main
 
-func handlePanic() {
+import "fmt"
+
+func handlePanic(){
 	r := recover()
-}
+    if r == "to much"{
+		fmt.Println("your nummber out of range")
+	}
