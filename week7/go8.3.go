@@ -2,15 +2,15 @@ package main
 
 import "fmt"
 
-func handlePanic(){
+func handlePanic() {
 	r := recover()
-    if r == "to much"{
+	if r == "to much" {
 		fmt.Println("your nummber out of range")
 		main()
 	}
 }
 
-func main (){
+func main() {
 	defer handlePanic()
 	var i int
 	fmt.Print("type number :")
@@ -18,3 +18,5 @@ func main (){
 	if e != nil {
 		panic("to much")
 	}
+	fmt.Println("your number :", i)
+}
