@@ -13,10 +13,10 @@ func handlePanic() {
 func main() {
 	defer handlePanic()
 	var i int
-	fmt.Print("type number :12")
+	fmt.Print("type number :")
 	_, e := fmt.Scan(&i)
 	if e != nil {
 		panic("to much")
 	}
-	fmt.Println("your number :12", i)
+	fmt.Println("your number :", i)
 }
