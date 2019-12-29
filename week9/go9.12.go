@@ -2,23 +2,23 @@ package main
 
 import "fmt"
 
-ty I interface{
+type I interface {
 	F()
 }
 
-func desc(i I)  {
-	fmt.Printf("%v ,%T \n", i,i)	
+func desc(i I) {
+	fmt.Printf("%v ,%T \n", i, i)
 }
 
 type T1 struct {
 	text string
 }
 
-func (t T1) F(){
+func (t T1) F() {
 	fmt.Println(t.text)
 }
 
-type T2 struct{
+type T2 struct {
 	number int
 }
 
@@ -26,9 +26,9 @@ func (t T2) F() {
 	fmt.Println(t.number)
 }
 
-func main()  {
+func main() {
 	i1 := T1{"Hello World"}
 	i2 := T2{20}
 	desc(i1)
-	desc(i2)	
+	desc(i2)
 }
