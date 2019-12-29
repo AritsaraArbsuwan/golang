@@ -23,5 +23,10 @@ type T2 struct{
 
 func (t T2) F() {
 	fmt.Println(t.number)
-	
+}
+func main()  {
+	i1 := T1{"Hello World"}
+	i2 := T2{20}
+	desc(i1)
+	desc(i2)	
 }
