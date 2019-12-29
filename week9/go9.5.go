@@ -14,3 +14,7 @@ type pupil struct{
 	address string
 	std     student
 }
+
+func main() {
+	goku := student{name: "Goku"}
+}
