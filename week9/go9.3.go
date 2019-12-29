@@ -5,3 +5,7 @@ type student struct {
 	age   int
 	email string
 }
+
+func main() {
+	std := student{name: "Goku"}
+}
