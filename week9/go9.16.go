@@ -10,9 +10,9 @@ func main() {
 	s, ok := i.(string)
 	fmt.Println(s, ok)
 
-	f, ok:= i.(float64)
+	f, ok := i.(float64)
 	fmt.Println(f, ok)
 
-	b :=;.(bool)
+	b := i.(bool)
 	fmt.Println(b)
 }
