@@ -21,3 +21,9 @@ type pupil struct {
 	address string
 	student
 }
+
+func main() {
+	var pup pupil
+	pup.name = "Goku"
+	pup.introduce()
+}
