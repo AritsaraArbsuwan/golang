@@ -17,11 +17,6 @@ type pupil struct {
 	student
 }
 
-type pupil struct {
-	address string
-	student
-}
-
 func main() {
 	var pup pupil
 	pup.name = "Goku"
