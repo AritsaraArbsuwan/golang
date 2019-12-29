@@ -13,3 +13,6 @@ func desc(i I)  {
 type T1 struct {
 	text string
 }
+func (t T1) F(){
+	fmt.Println(t.text)
+}
