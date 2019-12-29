@@ -12,4 +12,7 @@ func main() {
 
 	f, okk := i.(float64)
 	fmt.Println(f, ok)
+
+	b :=;.(bool)
+	fmt.Println(b)
 }
