@@ -20,3 +20,8 @@ func (t T1) F(){
 type T2 struct{
 	number int
 }
+
+func (t T2) F() {
+	fmt.Println(t.number)
+	
+}
