@@ -7,12 +7,13 @@ ty I interface{
 }
 
 func desc(i I)  {
-	fmt.Println("%v , 5T \n",i,i)	
+	fmt.Println("%v ,%T \n",i,i)	
 }
 
 type T1 struct {
 	text string
 }
+
 func (t T1) F(){
 	fmt.Println(t.text)
 }
@@ -24,6 +25,7 @@ type T2 struct{
 func (t T2) F() {
 	fmt.Println(t.number)
 }
+
 func main()  {
 	i1 := T1{"Hello World"}
 	i2 := T2{20}
