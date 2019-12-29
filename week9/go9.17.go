@@ -6,5 +6,7 @@ type myError struct {
 
 func (e myError) Error() string {
 	return e.error
+}
+func say(word string) error {
 
 }
