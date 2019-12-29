@@ -7,7 +7,7 @@ ty I interface{
 }
 
 func desc(i I)  {
-	fmt.Println("%v ,%T \n",i,i)	
+	fmt.Printf("%v ,%T \n", i,i)	
 }
 
 type T1 struct {
