@@ -6,7 +6,7 @@ func hello(t interface{}) {
 	fmt.Printf("Hello %T \n", t)
 }
 func hi(t ...interface{}) {
-	fmt.Printf("Hi ")
+	fmt.Print("Hi ")
 	for _, v := range t {
 		fmt.Println(" %T,", v)
 	}
