@@ -1,6 +1,6 @@
 package main
 
-import "fmmt"
+import "fmt"
 
 ty I interface{
 	F()
