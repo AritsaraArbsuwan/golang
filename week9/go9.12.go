@@ -9,3 +9,7 @@ ty I interface{
 func desc(i I)  {
 	fmt.Println("%v , 5T \n",i,i)	
 }
+
+type T1 struct {
+	text string
+}
