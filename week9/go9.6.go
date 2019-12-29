@@ -16,3 +16,8 @@ type pupil struct {
 	address string
 	student
 }
+
+type pupil struct {
+	address string
+	student
+}
