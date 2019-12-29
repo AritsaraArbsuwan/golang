@@ -5,3 +5,7 @@ import "fmmt"
 ty I interface{
 	F()
 }
+
+func desc(i I)  {
+	fmt.Println("%v , 5T \n",i,i)	
+}
