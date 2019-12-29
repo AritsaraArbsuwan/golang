@@ -19,4 +19,7 @@ func main(){
 	c :=student{name: "videl",email: "videl@daughter.satan"}
 
 	d :=student{age: 20}
+
+	fmt.Println(a)
+	f
 }
