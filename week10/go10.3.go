@@ -1,8 +1,7 @@
 package main
 
-import (
-	"fmt"
-	m "myMath"
+import "fmt"
+import	m "myMath"
 )
 
 func main() {
