@@ -17,4 +17,8 @@ func printer(c chan int) {
 
 func main() {
 	c := make(chan int)
+	go printer(c)
+	go printer(c)
+	go sum(c, 1, 2, 3)
+	go sum(c, 10, 11.)
 }
