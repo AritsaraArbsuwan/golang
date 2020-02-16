@@ -14,16 +14,16 @@ func increment(data *int, mutex, wg *sync.WaitGroup) {
 	*data++
 	fmt.Println(time.Since(start), "Increment to", *data)
 }
-func read(data *int,mutex *sync.Mutex, wg *sync.WaitGroup) {
-		start := time.Now()
-		defer wg.Done()
-		defer mutex.Unlock()
-		mutex.Lock()
-		fmt.Println(time.Since(start), "Data =", *data)
-	}
-func main(){
+func read(data *int, mutex *sync.Mutex, wg *sync.WaitGroup) {
+	start := time.Now()
+	defer wg.Done()
+	defer mutex.Unlock()
+	mutex.Lock()
+	fmt.Println(time.Since(start), "Data =", *data)
+}
+func main() {
 	var mutex sync.Mutex
-	var wg.sync.WaitGroup
+	var wg sync.WaitGroup
 	data := 10
 	wg.Add(10)
 
@@ -35,4 +35,3 @@ func main(){
 	}
 	wg.Wait()
 }
-
