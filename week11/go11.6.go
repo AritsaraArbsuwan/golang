@@ -22,5 +22,7 @@ func increment(data *int, mutex, wg *sync.WaitGroup) {
 func main(){
 	var mutex sync.Mutex
 	var wg.sync.WaitGroup
+	data := 10
+	wg.Add(10)
 }
 }
