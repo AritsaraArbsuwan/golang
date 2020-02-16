@@ -10,3 +10,7 @@ func say(txt string) {
 		fmt.Println(time.Now(), ":", i, ":", txt)
 	}
 }
+
+func main() {
+	go say("Hello")
+}
