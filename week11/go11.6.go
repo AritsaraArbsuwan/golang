@@ -17,6 +17,6 @@ func increment(data *int, mutex, wg *sync.WaitGroup) {
 		defer wg.Done()
 		defer mutex.Unlock()
 		mutex.Lock()
-		
+		fmt.Println(time.Since(start), "Data =", *data)
 	}
 }
