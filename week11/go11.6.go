@@ -14,5 +14,6 @@ func increment(data *int, mutex, wg *sync.WaitGroup) {
 	*data++
 	fmt.Println(time.Since(start), "Increment to", *data){
 		start := time.Now()
+		defer wg.Done()
 	}
 }
