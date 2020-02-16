@@ -17,5 +17,6 @@ func main() {
 	}
 	for_,fi := range fileInfos {
 		filename := fi.Name()
+		fmt.Println(filename)
 	}
 }
