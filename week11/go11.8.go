@@ -14,3 +14,7 @@ func printer(c chan int) {
 	numbar := <-c
 	fmt.Println(numbar)
 }
+
+func main() {
+	c := make(chan int)
+}
