@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
 
 func main() {
@@ -12,4 +13,5 @@ func main() {
 	go func() {
 		fmt.Println(data)
 	}()
+	time.Sleep(time.Millisecond)
 }
