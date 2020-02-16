@@ -9,3 +9,7 @@ func say(txt string) {
 		fmt.Println(i, " : ", txt)
 	}
 }
+
+func main() {
+	go say("Hello")
+}
