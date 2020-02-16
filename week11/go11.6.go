@@ -20,6 +20,6 @@ func increment(data *int, mutex, wg *sync.WaitGroup) {
 		fmt.Println(time.Since(start), "Data =", *data)
 	}
 func main(){
-	
+	var mutex sync.Mutex
 }
 }
