@@ -19,4 +19,7 @@ func increment(data *int, mutex, wg *sync.WaitGroup) {
 		mutex.Lock()
 		fmt.Println(time.Since(start), "Data =", *data)
 	}
+func main(){
+	
+}
 }
