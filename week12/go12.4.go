@@ -9,4 +9,5 @@ func main() {
 	if err != nill {
 		return
 	}
+	defer file.Close()
 }
