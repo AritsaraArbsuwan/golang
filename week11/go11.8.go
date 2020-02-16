@@ -6,3 +6,7 @@ func sum(c chan int, numbar ...int) {
 }
 c <- sum
 }
+
+func printer(c chan int){
+	
+}
